@@ -1,0 +1,14 @@
+uuid: 7d6b5e6d-0e98-4bc5-8fc6-61a1ff493144
+name: 'Drupal Restfull Services'
+mail: admin@example.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
