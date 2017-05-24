@@ -1,0 +1,3 @@
+[submodule "web/modules/custom/react_gallery"]
+	path = web/modules/custom/react_gallery
+	url = https://github.com/joanrufe/drupal-gallery.git

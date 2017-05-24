@@ -25,6 +25,7 @@ module:
   help: 0
   history: 0
   image: 0
+  kint: 0
   link: 0
   menu_ui: 0
   node: 0
@@ -33,6 +34,8 @@ module:
   path: 0
   quickedit: 0
   rdf: 0
+  realistic_dummy_content: 0
+  realistic_dummy_content_api: 0
   rest: 0
   search: 0
   serialization: 0
