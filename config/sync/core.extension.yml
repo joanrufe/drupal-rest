@@ -25,6 +25,7 @@ module:
   help: 0
   history: 0
   image: 0
+  jsonapi: 0
   kint: 0
   link: 0
   menu_ui: 0
@@ -34,9 +35,12 @@ module:
   path: 0
   quickedit: 0
   rdf: 0
+  react_gallery: 0
+  react_starter: 0
   realistic_dummy_content: 0
   realistic_dummy_content_api: 0
   rest: 0
+  restui: 0
   search: 0
   serialization: 0
   shortcut: 0
@@ -58,3 +62,4 @@ theme:
   seven: 0
 _core:
   default_config_hash: m2GVq11UAOVuNgj8x0t5fMOPujpvQQ_zxLoaly1BMEU
+profile: standard

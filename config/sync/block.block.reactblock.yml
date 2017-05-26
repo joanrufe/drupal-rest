@@ -1,0 +1,20 @@
+uuid: 9a0c1a80-8144-4fe1-b326-a18f7212558c
+langcode: en
+status: true
+dependencies:
+  module:
+    - react_starter
+  theme:
+    - bartik
+id: reactblock
+theme: bartik
+region: content
+weight: -7
+provider: null
+plugin: react_block
+settings:
+  id: react_block
+  label: 'React block'
+  provider: react_starter
+  label_display: visible
+visibility: {  }
