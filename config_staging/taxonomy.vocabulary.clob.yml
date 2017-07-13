@@ -1,0 +1,9 @@
+uuid: 2359bdaa-fc12-4406-b2c6-747fb7ff5e17
+langcode: und
+status: true
+dependencies: {  }
+name: clob
+vid: clob
+description: 'Description of clob'
+hierarchy: 1
+weight: 4
