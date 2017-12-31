@@ -1,0 +1,20 @@
+uuid: 068d92d2-1fc2-4a06-95b6-ab5378b626a0
+langcode: en
+status: true
+dependencies:
+  module:
+    - drupal_ui_component
+  theme:
+    - bartik
+id: reactdatepickercomponent
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: datepicker_component
+settings:
+  id: datepicker_component
+  label: 'React Datepicker Component'
+  provider: drupal_ui_component
+  label_display: visible
+visibility: {  }

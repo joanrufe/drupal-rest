@@ -14,6 +14,7 @@ module:
   dblog: 0
   devel: 0
   devel_generate: 0
+  drupal_ui_component: 0
   dynamic_page_cache: 0
   editor: 0
   field: 0
@@ -34,8 +35,11 @@ module:
   rdf: 0
   realistic_dummy_content: 0
   realistic_dummy_content_api: 0
+  rest: 0
+  restui: 0
   search: 0
   serialization: 0
+  simple_oauth: 0
   system: 0
   taxonomy: 0
   text: 0

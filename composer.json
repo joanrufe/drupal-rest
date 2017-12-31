@@ -24,9 +24,10 @@
         "drupal/core": "~8.0",
         "drupal/devel": "^1.0@RC",
         "drupal/devel_generate": "^1.0@RC",
-        "drupal/jsonapi": "^1.0",
+        "drupal/jsonapi": "^1.7",
         "drupal/realistic_dummy_content": "^2.0@beta",
         "drupal/restui": "^1.14",
+        "drupal/simple_oauth": "2.x-dev",
         "drush/drush": "~8.0",
         "webflo/drupal-finder": "^0.2.1",
         "webmozart/path-util": "^2.3"
@@ -46,7 +47,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-      "sort-packages": true
+        "sort-packages": true
     },
     "autoload": {
         "classmap": [
@@ -70,12 +71,24 @@
     },
     "extra": {
         "installer-paths": {
-            "web/core": ["type:drupal-core"],
-            "web/libraries/{$name}": ["type:drupal-library"],
-            "web/modules/contrib/{$name}": ["type:drupal-module"],
-            "web/profiles/contrib/{$name}": ["type:drupal-profile"],
-            "web/themes/contrib/{$name}": ["type:drupal-theme"],
-            "drush/contrib/{$name}": ["type:drupal-drush"]
+            "web/core": [
+                "type:drupal-core"
+            ],
+            "web/libraries/{$name}": [
+                "type:drupal-library"
+            ],
+            "web/modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "web/profiles/contrib/{$name}": [
+                "type:drupal-profile"
+            ],
+            "web/themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ],
+            "drush/contrib/{$name}": [
+                "type:drupal-drush"
+            ]
         }
     }
 }

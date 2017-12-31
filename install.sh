@@ -4,6 +4,15 @@
 # USAGE:
 #    ./install.sh project_name db_user db_password
 
+
+if [ "$#" == 0 ] || [ ${1} == "help" ];
+then
+    echo -e "
+USAGE: ./install.sh project_name db_user db_password
+";
+  exit;
+fi
+
 # Drush input data
 NAMESPACE=${1}
 DBUSER=${2}
