@@ -30,7 +30,8 @@
         "drupal/simple_oauth": "2.x-dev",
         "drush/drush": "~8.0",
         "webflo/drupal-finder": "^0.2.1",
-        "webmozart/path-util": "^2.3"
+        "webmozart/path-util": "^2.3",
+        "ext-gd": "*"
     },
     "require-dev": {
         "behat/mink": "~1.7",
@@ -63,7 +64,8 @@
             "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
         ],
         "post-install-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles",
+            "bash deploy-heroku.sh"
         ],
         "post-update-cmd": [
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
