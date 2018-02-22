@@ -3,26 +3,8 @@
 ROOT=`pwd`
 drush="$ROOT/vendor/drush/drush/drush"
 
-# Install site
-$drush site-install --db-url=pgsql://$USER:$PASSWORD@$HOST:$PORT/$DATABASE --account-name=admin --account-pass=admin standard -y
-
-ROOT=`pwd`
-drupal="$ROOT/vendor/drupal/console/bin/drupal"
-cd web
-
-#drupal site:install  standard  \
-#--langcode="en"  \
-#--db-type="pgsql"  \
-#--db-host="$HOST"  \
-#--db-name="$DATABASE"  \
-#--db-user="$USER"  \
-#--db-pass="$PASSWORD"  \
-#--db-port="$PORT"  \
-#--site-name="Drupal 8 Restful Testing"  \
-#--site-mail="admin@example.com"  \
-#--account-name="admin"  \
-#--account-mail="admin@example.com"  \
-#--account-pass="admin"
+# Install site (Not working, have to be done by interface)
+# $drush site-install --db-url=pgsql://$USER:$PASSWORD@$HOST:$PORT/$DATABASE --account-name=admin --account-pass=admin standard -y
 
 # Fix for drush config import
 # See: https://www.drupal.org/node/2583113#comment-11333793
